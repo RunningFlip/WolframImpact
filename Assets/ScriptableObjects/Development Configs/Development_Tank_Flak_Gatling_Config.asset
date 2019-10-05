@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d750904b0b349f42833209205488133, type: 3}
+  m_Name: Development_Tank_Flak_Gatling_Config
+  m_EditorClassIdentifier: 
+  requiredEnergy: 100
+  requiredMass: 100
+  requiredObjectSpace: 10
+  developmentDuration: 7
+  isMilitaryObject: 1
+  prefabName: Flak Gatling
+  prefab: {fileID: 5503423884283680464, guid: d95bdb8718bbf964b8a085160cebb4af, type: 3}
+  picture: {fileID: -2230570698317305819, guid: 3825f2e7852eef74bb6d74431b46e83a,
+    type: 3}
+  volume: 0
+  finishDevelopmentClip: {fileID: 0}

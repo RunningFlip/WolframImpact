@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89995acc2f306844ba4ea69b796d024f, type: 3}
+  m_Name: Turret_AntiTank_Command_Shoot_Config
+  m_EditorClassIdentifier: 
+  longPressAllowed: 0
+  triggerType: 0
+  cursorTexture: {fileID: 2800000, guid: cfefe0812fed27047ad997ae62072c09, type: 3}
+  cancelAllTasksBefore: 0
+  commandLetter: A
+  commandName: Attack
+  discription: Shoots a certain target or spot.
+  useVisuals: 0
+  nodePrefab: {fileID: 0}
+  strokePrefab: {fileID: 0}
+  requiredDistance: 45
+  requiredEnergy: 0
+  damage: 35
+  damageType: 1
+  speed: 45
+  maxBulletRange: 200
+  firerate: 4
+  volume: 0
+  attackAudioClip: {fileID: 0}

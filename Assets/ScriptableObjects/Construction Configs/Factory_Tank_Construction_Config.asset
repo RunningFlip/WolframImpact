@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335de66fbb763ab4bac94cf2680e9a7d, type: 3}
+  m_Name: Factory_Tank_Construction_Config
+  m_EditorClassIdentifier: 
+  requiredEnergy: 300
+  requiredMass: 250
+  isMilitaryObject: 0
+  prefabName: Ground Factory
+  prefab: {fileID: 2367867783968890336, guid: 16643846193cfbb48a7aa284d110e254, type: 3}
+  temporaryPrefab: {fileID: 3337987355692324033, guid: a14938e953531824d98f03cf78628644,
+    type: 3}
+  picture: {fileID: -2510616296661107707, guid: 3825f2e7852eef74bb6d74431b46e83a,
+    type: 3}
+  volume: 0
+  finishConstructionClip: {fileID: 0}

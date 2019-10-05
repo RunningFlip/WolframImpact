@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335de66fbb763ab4bac94cf2680e9a7d, type: 3}
+  m_Name: Turret_Flak_Construction_Config
+  m_EditorClassIdentifier: 
+  requiredEnergy: 250
+  requiredMass: 230
+  isMilitaryObject: 1
+  prefabName: Turret Flak
+  prefab: {fileID: 5488519014787498253, guid: ec555bcb37a9a254786092ef25bb673c, type: 3}
+  temporaryPrefab: {fileID: 817632488466323365, guid: 863d8977848bee84eb31b6fa2b9c26c7,
+    type: 3}
+  picture: {fileID: -10134414871873888, guid: 3825f2e7852eef74bb6d74431b46e83a, type: 3}
+  volume: 0
+  finishConstructionClip: {fileID: 0}

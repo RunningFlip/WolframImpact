@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335de66fbb763ab4bac94cf2680e9a7d, type: 3}
+  m_Name: Turret_AntiTank_Construction_Config
+  m_EditorClassIdentifier: 
+  requiredEnergy: 300
+  requiredMass: 250
+  isMilitaryObject: 1
+  prefabName: Turret AntiTank
+  prefab: {fileID: 2022694454017966008, guid: 9e1ed31b9d1f01147bd31f14052b21bc, type: 3}
+  temporaryPrefab: {fileID: 1355831281981043630, guid: 4c62848a322531846b630c4c8b1082df,
+    type: 3}
+  picture: {fileID: 7746944937410745402, guid: 3825f2e7852eef74bb6d74431b46e83a, type: 3}
+  volume: 0
+  finishConstructionClip: {fileID: 0}

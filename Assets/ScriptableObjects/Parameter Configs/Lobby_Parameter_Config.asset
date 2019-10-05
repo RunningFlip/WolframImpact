@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d512484fae49d4e85dfac0a7b10716, type: 3}
+  m_Name: Lobby_Parameter_Config
+  m_EditorClassIdentifier: 
+  userColors:
+  - colorSprite: {fileID: 21300000, guid: 1921184b6dc162a46855dd34ac740545, type: 3}
+    material: {fileID: 2100000, guid: 2cbf00983b30bb04882bd66ae1566490, type: 2}
+  - colorSprite: {fileID: 21300000, guid: 10e4ed2e4a5d8284eb104f70cc1d6c33, type: 3}
+    material: {fileID: 2100000, guid: 3158e160204e2a0469c77d079d906ed6, type: 2}
+  - colorSprite: {fileID: 21300000, guid: bc3a7fb544dc7564aae1362d5e81cb08, type: 3}
+    material: {fileID: 2100000, guid: 990de737e87e3b94a99c2f8ae021bd8e, type: 2}
+  - colorSprite: {fileID: 21300000, guid: fd367d96c70a92a4db004ba531ce6875, type: 3}
+    material: {fileID: 2100000, guid: 97869876e1462c047b9cf5b5dfa05d9c, type: 2}
+  - colorSprite: {fileID: 21300000, guid: 36299af0d1e2eb44ea45e946bd73f080, type: 3}
+    material: {fileID: 2100000, guid: 41d25be36e7416646a234123eb8554c4, type: 2}
+  - colorSprite: {fileID: 21300000, guid: 01d4ebd89e2d3af4face0278eb84c932, type: 3}
+    material: {fileID: 2100000, guid: c008401138c539c4d9960e5acf1575f6, type: 2}
+  - colorSprite: {fileID: 21300000, guid: 1e654e60bbbb2df4984da263a2cc81a4, type: 3}
+    material: {fileID: 2100000, guid: 72f69edd74c6e334099f4e96ea30e23f, type: 2}
+  mapConfigs:
+  - {fileID: 11400000, guid: ec637599a06a8c34f89d2c555cf76bbd, type: 2}

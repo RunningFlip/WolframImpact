@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbe4ac09a3d8424ab7d85996c9f32c8, type: 3}
+  m_Name: Game_Parameter_Config
+  m_EditorClassIdentifier: 
+  userControllerPrefab_Player: {fileID: 7915539404276108969, guid: 0e410aafc38eb1a438c62af7f7ca31be,
+    type: 3}
+  userControllerPrefab_AI: {fileID: 7915539404276108969, guid: 5d86de448e9589e448e4798c6fb627a9,
+    type: 3}
+  coWorkerSpawnRadius: 6
+  coWorkerAmount: 3
+  baseConfig: {fileID: 11400000, guid: b879296331af7f343b62aa89e7a74e32, type: 2}
+  coWorkerConfig: {fileID: 11400000, guid: 6d30982e0c339a946b4d63e362098e9b, type: 2}
+  maxMouseRayCastLength: 250
+  minimapFrustumRayCastLength: 250
+  mouseClickLayerMask:
+    serializedVersion: 2
+    m_Bits: 35328
+  cameraBorderLayerMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  selectionLayerMask:
+    serializedVersion: 2
+    m_Bits: 32768
+  maxSelectableObjects: 20
+  maxSavableSelections: 10
+  backgroundColor: {r: 0.59474015, g: 0.59474015, b: 0.9339623, a: 0.2509804}
+  strokeColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+  strokeThickness: 2
+  magnitudeToSelect: 20
+  cameraSpeed: 135
+  cameraRotationSpeed: 1
+  cameraDefaultZoom: 30
+  cameraMinZoom: 15
+  cameraMaxZoom: 60
+  cameraZoomSpeed: 20
+  cameraTriggerSize: 3
+  cameraTriggerMovementStep: 0.5
+  cameraMapBorderWidth: 30
+  minimapLayerMask:
+    serializedVersion: 2
+    m_Bits: 196608
+  viewportColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
+  resourceTickStart: 3
+  energyCapStart: 2000
+  massCapStart: 2000
+  objectCapStart: 100
+  energyStart: 1200
+  massStart: 1200
+  maxConstructionDistance: 8
+  detectionUpdateTime: 0.5
+  detectionMask:
+    serializedVersion: 2
+    m_Bits: 32768
+  maxTimeToFollow: 8
+  maxDistanceToFollowedObject: 10
+  cursorTexture: {fileID: 2800000, guid: e73ec21efc125f64ba841e897abf617d, type: 3}
+  maxObjectsToBuild: 10
+  developmentFailedVolume: 5
+  developmentFailedClip: {fileID: 0}
+  CommandPopupColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0.92156863}
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 38
+  borderSize: 20
+  headlineGap: 50
+  popupTimer: 0.7
+  font: {fileID: 12800000, guid: b62e6578c6118c2449768c0a53f086af, type: 3}
+  worldUIHealthGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 0, b: 0.07929516, a: 1}
+    key1: {r: 0.15178525, g: 1, b: 0, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 1}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 6361
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  defaultWoldBarAlpha: 100
+  UINodeMove: {fileID: 1337783745129502, guid: d11641d451f923c47a2368b7012f0031, type: 3}
+  UIStrokeMove: {fileID: 1392605349339742, guid: b8285a03c9e58334ca1a4baa5468596a,
+    type: 3}
+  UINodePatrol: {fileID: 1228631820180196, guid: db8e29dee28d9c9479c1974bdd441020,
+    type: 3}
+  UIStrokePatrol: {fileID: 1029868335737464, guid: 541f256765394cb40a3ef219679dc808,
+    type: 3}
+  UINodeAttack: {fileID: 1652934839650784, guid: a28e06dafdfce0047a8f8c0c36a58d29,
+    type: 3}
+  UIStrokeAttack: {fileID: 1540046291929070, guid: f57bfd0b591a9734a8b7fea5bf32af7d,
+    type: 3}

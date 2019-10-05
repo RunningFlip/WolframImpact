@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740b63fc0d5c3634f8fc32a621f94d55, type: 3}
+  m_Name: Command_Tank_Flak_Develop_Config
+  m_EditorClassIdentifier: 
+  longPressAllowed: 0
+  triggerType: 1
+  cursorTexture: {fileID: 0}
+  cancelAllTasksBefore: 0
+  commandLetter: F
+  commandName: Flak
+  discription: 'A tank that shoots airplanes.
+
+'
+  useVisuals: 0
+  nodePrefab: {fileID: 0}
+  strokePrefab: {fileID: 0}
+  config: {fileID: 11400000, guid: 4374de33e34d49745b6232facfe8e418, type: 2}

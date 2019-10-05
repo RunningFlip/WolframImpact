@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dd265352a3a31849a1ff5da5884f1f8, type: 3}
+  m_Name: Command_Destroy_Config
+  m_EditorClassIdentifier: 
+  longPressAllowed: 0
+  triggerType: 1
+  cursorTexture: {fileID: 0}
+  cancelAllTasksBefore: 1
+  commandLetter: X
+  commandName: Destroy
+  discription: Destroys the object immediatly.
+  useVisuals: 0
+  nodePrefab: {fileID: 0}
+  strokePrefab: {fileID: 0}

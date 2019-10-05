@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eafd62baf7bf1fb42a7634f68a7a211a, type: 3}
+  m_Name: Generator_Energy_ArcheType
+  m_EditorClassIdentifier: 
+  objectName: Energy Generator
+  objectSprite: {fileID: -6769700568984253525, guid: 3825f2e7852eef74bb6d74431b46e83a,
+    type: 3}
+  isMilitaryObject: 0
+  tagType: 0
+  objectType: 0
+  targetObjectTypes: 
+  maxHealth: 50
+  deathType: 1
+  deathDelayTime: 0
+  resistances: []
+  maxEnergy: 0
+  commands:
+  - commandConfig: {fileID: 11400000, guid: a86b418c08e2edd4aa4c6c166be5df0e, type: 2}
+    commandTypes: 
+  canReceiveDamage: 1
+  generatorType: 0
+  amountPerTick: 10
